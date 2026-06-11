@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- original pixel-art demon skull, drawn for this project -->
+  <rect width="16" height="16" rx="2.5" fill="#160404"/>
+  <g>
+    <!-- cranium -->
+    <rect x="4" y="1" width="8" height="1" fill="#b9b3a4"/>
+    <rect x="3" y="2" width="10" height="1" fill="#b9b3a4"/>
+    <rect x="2" y="3" width="12" height="1" fill="#b9b3a4"/>
+    <rect x="2" y="4" width="12" height="1" fill="#b9b3a4"/>
+    <!-- angry brow notches -->
+    <rect x="5" y="4" width="2" height="1" fill="#4a443c"/>
+    <rect x="9" y="4" width="2" height="1" fill="#4a443c"/>
+    <!-- eye socket rows -->
+    <rect x="2" y="5" width="1" height="2" fill="#b9b3a4"/>
+    <rect x="7" y="5" width="2" height="2" fill="#b9b3a4"/>
+    <rect x="13" y="5" width="1" height="2" fill="#b9b3a4"/>
+    <rect x="3" y="5" width="4" height="2" fill="#2a0000"/>
+    <rect x="9" y="5" width="4" height="2" fill="#2a0000"/>
+    <!-- glowing pupils -->
+    <rect x="4" y="5.5" width="2" height="1" fill="#ff2a00"/>
+    <rect x="10" y="5.5" width="2" height="1" fill="#ff2a00"/>
+    <rect x="4.5" y="5.75" width="1" height="0.5" fill="#ffb37a"/>
+    <rect x="10.5" y="5.75" width="1" height="0.5" fill="#ffb37a"/>
+    <!-- cheeks + nose -->
+    <rect x="3" y="7" width="10" height="1" fill="#b9b3a4"/>
+    <rect x="7" y="7" width="2" height="1" fill="#1c0a0a"/>
+    <rect x="3" y="8" width="10" height="1" fill="#a39d8e"/>
+    <rect x="7" y="8" width="2" height="1" fill="#1c0a0a"/>
+    <rect x="4" y="9" width="8" height="1" fill="#a39d8e"/>
+    <!-- teeth -->
+    <rect x="4" y="10" width="8" height="2" fill="#8f897a"/>
+    <rect x="5" y="10" width="1" height="2" fill="#241010"/>
+    <rect x="7" y="10" width="1" height="2" fill="#241010"/>
+    <rect x="9" y="10" width="1" height="2" fill="#241010"/>
+    <rect x="11" y="10" width="1" height="2" fill="#241010"/>
+    <!-- jaw -->
+    <rect x="5" y="12" width="6" height="1" fill="#7d7869"/>
+    <!-- horns -->
+    <rect x="1" y="2" width="1" height="3" fill="#6e3a1f"/>
+    <rect x="2" y="1" width="1" height="2" fill="#8a4a26"/>
+    <rect x="14" y="2" width="1" height="3" fill="#6e3a1f"/>
+    <rect x="13" y="1" width="1" height="2" fill="#8a4a26"/>
+  </g>
+</svg>

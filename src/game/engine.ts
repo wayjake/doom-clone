@@ -193,7 +193,7 @@ function moveWithCollision(x: number, z: number, dx: number, dz: number, r: numb
       }
     return [px, pz]
   }
-  ;[nx, nz] = tryAxis(nx, z)
+  ;[nx] = tryAxis(nx, z)
   ;[nx, nz] = tryAxis(nx, nz)
   return [nx, nz, bumped]
 }
@@ -606,9 +606,10 @@ export function tick(dt: number, input: InputState) {
 
   if (game.alive) {
     // ---- movement ----
+    // camera (rotation.y = yaw) faces (-sin, -cos); its right vector is (cos, -sin)
     const sin = Math.sin(game.yaw), cos = Math.cos(game.yaw)
-    let wx = (-sin * input.forward) + (-cos * input.strafe)
-    let wz = (-cos * input.forward) + (sin * input.strafe)
+    let wx = (-sin * input.forward) + (cos * input.strafe)
+    let wz = (-cos * input.forward) + (-sin * input.strafe)
     const wl = Math.hypot(wx, wz)
     if (wl > 1) { wx /= wl; wz /= wl }
     game.vx += wx * ACCEL * dt
