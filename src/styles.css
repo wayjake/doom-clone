@@ -1,0 +1,195 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  font-family: monospace;
+  user-select: none;
+}
+
+.app { width: 100%; height: 100%; position: relative; }
+
+.canvas-wrap {
+  position: absolute;
+  inset: 0;
+  cursor: crosshair;
+}
+.canvas-wrap canvas { image-rendering: pixelated; }
+
+/* ---------- overlays ---------- */
+.overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 30;
+}
+
+.crosshair {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  margin: -2px 0 0 -2px;
+  background: rgba(200, 40, 40, 0.9);
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* ---------- weapon ---------- */
+.weapon-wrap {
+  position: absolute;
+  bottom: 11vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+.weapon-img {
+  display: block;
+  height: 38vh;
+  image-rendering: pixelated;
+}
+.weapon-flash {
+  display: none;
+  position: absolute;
+  bottom: 92%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 14vh;
+  image-rendering: pixelated;
+}
+
+/* ---------- status bar ---------- */
+.stbar-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  pointer-events: none;
+}
+.stbar {
+  position: relative;
+  width: 320px;
+  height: 32px;
+  transform: scale(3.4);
+  transform-origin: bottom center;
+}
+@media (max-width: 1200px) { .stbar { transform: scale(2.6); transform-origin: bottom center; } }
+.stbar-img {
+  position: absolute;
+  inset: 0;
+  width: 320px;
+  height: 32px;
+  image-rendering: pixelated;
+}
+.stbar img { image-rendering: pixelated; }
+
+.hud-message {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  color: #ff4a4a;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  z-index: 25;
+  text-transform: uppercase;
+}
+.hud-kills {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  color: #c8c8c8;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 16px;
+  z-index: 25;
+}
+
+/* ---------- menus ---------- */
+.menu-screen {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at center, rgba(60, 8, 8, 0.55), rgba(0, 0, 0, 0.92)),
+    #1a0505;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  gap: 3vh;
+}
+.menu-logo img {
+  height: 18vh;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 0 22px rgba(255, 60, 0, 0.5));
+}
+.menu-title img {
+  height: 6vh;
+  image-rendering: pixelated;
+}
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2vh;
+  align-items: flex-start;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  cursor: pointer;
+}
+.menu-item > img:last-child { height: 4.6vh; image-rendering: pixelated; }
+.menu-skull { height: 4.6vh; image-rendering: pixelated; }
+.menu-hint {
+  margin-top: 4vh;
+  color: #7a6a6a;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.pause-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 60;
+}
+.pause-overlay .menu-screen {
+  background: rgba(0, 0, 0, 0.66);
+}
+.pause-resume-hint {
+  position: absolute;
+  bottom: 6vh;
+  width: 100%;
+  text-align: center;
+  color: #9a8a8a;
+  font-size: 14px;
+  letter-spacing: 3px;
+  z-index: 61;
+  pointer-events: none;
+}
+
+/* ---------- end screens ---------- */
+.center-text {
+  position: absolute;
+  top: 38%;
+  width: 100%;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  z-index: 40;
+  text-shadow: 3px 3px 0 #000;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  pointer-events: none;
+}
+.center-text span { font-size: 18px; letter-spacing: 4px; }
+.death-text { color: #b41414; }
+.win-text { color: #d7ba45; }

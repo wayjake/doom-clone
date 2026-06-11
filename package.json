@@ -1,0 +1,29 @@
+{
+  "name": "doom-clone",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "slice": "node scripts/slice.mjs"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.177.0",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/three": "^0.177.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "playwright-core": "^1.60.0",
+    "sharp": "^0.34.1",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

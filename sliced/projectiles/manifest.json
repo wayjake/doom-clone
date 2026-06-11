@@ -1,0 +1,857 @@
+[
+ {
+  "frame": "projectiles_r0_c0",
+  "row": 0,
+  "col": 0,
+  "x": 90,
+  "y": 5,
+  "w": 111,
+  "h": 13
+ },
+ {
+  "frame": "projectiles_r1_c0",
+  "row": 1,
+  "col": 0,
+  "x": 189,
+  "y": 72,
+  "w": 86,
+  "h": 10
+ },
+ {
+  "frame": "projectiles_r1_c1",
+  "row": 1,
+  "col": 1,
+  "x": 337,
+  "y": 38,
+  "w": 60,
+  "h": 39
+ },
+ {
+  "frame": "projectiles_r1_c2",
+  "row": 1,
+  "col": 2,
+  "x": 409,
+  "y": 41,
+  "w": 39,
+  "h": 36
+ },
+ {
+  "frame": "projectiles_r1_c3",
+  "row": 1,
+  "col": 3,
+  "x": 460,
+  "y": 41,
+  "w": 144,
+  "h": 36
+ },
+ {
+  "frame": "projectiles_r2_c0",
+  "row": 2,
+  "col": 0,
+  "x": 337,
+  "y": 89,
+  "w": 39,
+  "h": 27
+ },
+ {
+  "frame": "projectiles_r2_c1",
+  "row": 2,
+  "col": 1,
+  "x": 388,
+  "y": 86,
+  "w": 102,
+  "h": 30
+ },
+ {
+  "frame": "projectiles_r2_c2",
+  "row": 2,
+  "col": 2,
+  "x": 493,
+  "y": 89,
+  "w": 18,
+  "h": 27
+ },
+ {
+  "frame": "projectiles_r2_c3",
+  "row": 2,
+  "col": 3,
+  "x": 523,
+  "y": 89,
+  "w": 123,
+  "h": 27
+ },
+ {
+  "frame": "projectiles_r3_c0",
+  "row": 3,
+  "col": 0,
+  "x": 209,
+  "y": 123,
+  "w": 41,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r4_c0",
+  "row": 4,
+  "col": 0,
+  "x": 1,
+  "y": 1,
+  "w": 258,
+  "h": 292
+ },
+ {
+  "frame": "projectiles_r4_c1",
+  "row": 4,
+  "col": 1,
+  "x": 129,
+  "y": 276,
+  "w": 180,
+  "h": 13
+ },
+ {
+  "frame": "projectiles_r4_c2",
+  "row": 4,
+  "col": 2,
+  "x": 146,
+  "y": 206,
+  "w": 164,
+  "h": 56
+ },
+ {
+  "frame": "projectiles_r4_c3",
+  "row": 4,
+  "col": 3,
+  "x": 204,
+  "y": 170,
+  "w": 41,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r4_c4",
+  "row": 4,
+  "col": 4,
+  "x": 440,
+  "y": 126,
+  "w": 169,
+  "h": 20
+ },
+ {
+  "frame": "projectiles_r5_c0",
+  "row": 5,
+  "col": 0,
+  "x": 4,
+  "y": 319,
+  "w": 117,
+  "h": 13
+ },
+ {
+  "frame": "projectiles_r6_c0",
+  "row": 6,
+  "col": 0,
+  "x": 148,
+  "y": 294,
+  "w": 143,
+  "h": 114
+ },
+ {
+  "frame": "projectiles_r6_c1",
+  "row": 6,
+  "col": 1,
+  "x": 292,
+  "y": 379,
+  "w": 135,
+  "h": 29
+ },
+ {
+  "frame": "projectiles_r6_c2",
+  "row": 6,
+  "col": 2,
+  "x": 428,
+  "y": 401,
+  "w": 236,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r7_c0",
+  "row": 7,
+  "col": 0,
+  "x": 165,
+  "y": 438,
+  "w": 89,
+  "h": 10
+ },
+ {
+  "frame": "projectiles_r8_c0",
+  "row": 8,
+  "col": 0,
+  "x": 1,
+  "y": 338,
+  "w": 163,
+  "h": 291
+ },
+ {
+  "frame": "projectiles_r8_c1",
+  "row": 8,
+  "col": 1,
+  "x": 99,
+  "y": 479,
+  "w": 51,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r8_c2",
+  "row": 8,
+  "col": 2,
+  "x": 162,
+  "y": 532,
+  "w": 99,
+  "h": 10
+ },
+ {
+  "frame": "projectiles_r8_c3",
+  "row": 8,
+  "col": 3,
+  "x": 169,
+  "y": 585,
+  "w": 108,
+  "h": 10
+ },
+ {
+  "frame": "projectiles_r9_c0",
+  "row": 9,
+  "col": 0,
+  "x": 77,
+  "y": 630,
+  "w": 221,
+  "h": 78
+ },
+ {
+  "frame": "projectiles_r9_c1",
+  "row": 9,
+  "col": 1,
+  "x": 310,
+  "y": 671,
+  "w": 101,
+  "h": 10
+ },
+ {
+  "frame": "projectiles_r10_c0",
+  "row": 10,
+  "col": 0,
+  "x": 117,
+  "y": 728,
+  "w": 189,
+  "h": 12
+ },
+ {
+  "frame": "projectiles_r11_c0",
+  "row": 11,
+  "col": 0,
+  "x": 1,
+  "y": 662,
+  "w": 244,
+  "h": 169
+ },
+ {
+  "frame": "projectiles_r11_c1",
+  "row": 11,
+  "col": 1,
+  "x": 227,
+  "y": 819,
+  "w": 117,
+  "h": 13
+ },
+ {
+  "frame": "projectiles_r11_c2",
+  "row": 11,
+  "col": 2,
+  "x": 253,
+  "y": 778,
+  "w": 115,
+  "h": 10
+ },
+ {
+  "frame": "projectiles_r12_c0",
+  "row": 12,
+  "col": 0,
+  "x": 1,
+  "y": 832,
+  "w": 266,
+  "h": 86
+ },
+ {
+  "frame": "projectiles_r13_c0",
+  "row": 13,
+  "col": 0,
+  "x": 191,
+  "y": 938,
+  "w": 73,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r14_c0",
+  "row": 14,
+  "col": 0,
+  "x": 2,
+  "y": 943,
+  "w": 29,
+  "h": 14
+ },
+ {
+  "frame": "projectiles_r15_c0",
+  "row": 15,
+  "col": 0,
+  "x": 1,
+  "y": 919,
+  "w": 435,
+  "h": 114
+ },
+ {
+  "frame": "projectiles_r16_c0",
+  "row": 16,
+  "col": 0,
+  "x": 2,
+  "y": 1067,
+  "w": 145,
+  "h": 68
+ },
+ {
+  "frame": "projectiles_r17_c0",
+  "row": 17,
+  "col": 0,
+  "x": 1,
+  "y": 1142,
+  "w": 68,
+  "h": 27
+ },
+ {
+  "frame": "projectiles_r17_c1",
+  "row": 17,
+  "col": 1,
+  "x": 72,
+  "y": 1143,
+  "w": 66,
+  "h": 25
+ },
+ {
+  "frame": "projectiles_r17_c2",
+  "row": 17,
+  "col": 2,
+  "x": 142,
+  "y": 1143,
+  "w": 66,
+  "h": 24
+ },
+ {
+  "frame": "projectiles_r17_c3",
+  "row": 17,
+  "col": 3,
+  "x": 220,
+  "y": 1151,
+  "w": 6,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r17_c4",
+  "row": 17,
+  "col": 4,
+  "x": 228,
+  "y": 1153,
+  "w": 6,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r17_c5",
+  "row": 17,
+  "col": 5,
+  "x": 242,
+  "y": 1153,
+  "w": 6,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r17_c6",
+  "row": 17,
+  "col": 6,
+  "x": 250,
+  "y": 1153,
+  "w": 7,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r17_c7",
+  "row": 17,
+  "col": 7,
+  "x": 265,
+  "y": 1152,
+  "w": 5,
+  "h": 8
+ },
+ {
+  "frame": "projectiles_r17_c8",
+  "row": 17,
+  "col": 8,
+  "x": 272,
+  "y": 1153,
+  "w": 6,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r17_c9",
+  "row": 17,
+  "col": 9,
+  "x": 284,
+  "y": 1151,
+  "w": 6,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r17_c10",
+  "row": 17,
+  "col": 10,
+  "x": 298,
+  "y": 1153,
+  "w": 6,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r17_c11",
+  "row": 17,
+  "col": 11,
+  "x": 306,
+  "y": 1151,
+  "w": 6,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r17_c12",
+  "row": 17,
+  "col": 12,
+  "x": 314,
+  "y": 1153,
+  "w": 6,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r17_c13",
+  "row": 17,
+  "col": 13,
+  "x": 326,
+  "y": 1151,
+  "w": 6,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r17_c14",
+  "row": 17,
+  "col": 14,
+  "x": 340,
+  "y": 1153,
+  "w": 6,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r17_c15",
+  "row": 17,
+  "col": 15,
+  "x": 348,
+  "y": 1153,
+  "w": 7,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r17_c16",
+  "row": 17,
+  "col": 16,
+  "x": 357,
+  "y": 1153,
+  "w": 6,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r17_c17",
+  "row": 17,
+  "col": 17,
+  "x": 365,
+  "y": 1153,
+  "w": 6,
+  "h": 7
+ },
+ {
+  "frame": "projectiles_r18_c0",
+  "row": 18,
+  "col": 0,
+  "x": 65,
+  "y": 1189,
+  "w": 48,
+  "h": 31
+ },
+ {
+  "frame": "projectiles_r18_c1",
+  "row": 18,
+  "col": 1,
+  "x": 129,
+  "y": 1184,
+  "w": 39,
+  "h": 34
+ },
+ {
+  "frame": "projectiles_r18_c2",
+  "row": 18,
+  "col": 2,
+  "x": 192,
+  "y": 1175,
+  "w": 30,
+  "h": 39
+ },
+ {
+  "frame": "projectiles_r18_c3",
+  "row": 18,
+  "col": 3,
+  "x": 254,
+  "y": 1170,
+  "w": 23,
+  "h": 40
+ },
+ {
+  "frame": "projectiles_r18_c4",
+  "row": 18,
+  "col": 4,
+  "x": 316,
+  "y": 1183,
+  "w": 18,
+  "h": 23
+ },
+ {
+  "frame": "projectiles_r19_c0",
+  "row": 19,
+  "col": 0,
+  "x": 1,
+  "y": 1191,
+  "w": 58,
+  "h": 62
+ },
+ {
+  "frame": "projectiles_r19_c1",
+  "row": 19,
+  "col": 1,
+  "x": 65,
+  "y": 1224,
+  "w": 48,
+  "h": 31
+ },
+ {
+  "frame": "projectiles_r19_c2",
+  "row": 19,
+  "col": 2,
+  "x": 128,
+  "y": 1226,
+  "w": 39,
+  "h": 34
+ },
+ {
+  "frame": "projectiles_r19_c3",
+  "row": 19,
+  "col": 3,
+  "x": 192,
+  "y": 1230,
+  "w": 30,
+  "h": 39
+ },
+ {
+  "frame": "projectiles_r19_c4",
+  "row": 19,
+  "col": 4,
+  "x": 255,
+  "y": 1234,
+  "w": 23,
+  "h": 40
+ },
+ {
+  "frame": "projectiles_r19_c5",
+  "row": 19,
+  "col": 5,
+  "x": 316,
+  "y": 1238,
+  "w": 18,
+  "h": 23
+ },
+ {
+  "frame": "projectiles_r20_c0",
+  "row": 20,
+  "col": 0,
+  "x": 5,
+  "y": 1292,
+  "w": 27,
+  "h": 22
+ },
+ {
+  "frame": "projectiles_r20_c1",
+  "row": 20,
+  "col": 1,
+  "x": 39,
+  "y": 1286,
+  "w": 28,
+  "h": 34
+ },
+ {
+  "frame": "projectiles_r20_c2",
+  "row": 20,
+  "col": 2,
+  "x": 218,
+  "y": 1286,
+  "w": 21,
+  "h": 35
+ },
+ {
+  "frame": "projectiles_r20_c3",
+  "row": 20,
+  "col": 3,
+  "x": 257,
+  "y": 1297,
+  "w": 12,
+  "h": 12
+ },
+ {
+  "frame": "projectiles_r20_c4",
+  "row": 20,
+  "col": 4,
+  "x": 285,
+  "y": 1300,
+  "w": 80,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r20_c5",
+  "row": 20,
+  "col": 5,
+  "x": 371,
+  "y": 1300,
+  "w": 45,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r21_c0",
+  "row": 21,
+  "col": 0,
+  "x": 5,
+  "y": 1357,
+  "w": 36,
+  "h": 30
+ },
+ {
+  "frame": "projectiles_r21_c1",
+  "row": 21,
+  "col": 1,
+  "x": 12,
+  "y": 1414,
+  "w": 26,
+  "h": 19
+ },
+ {
+  "frame": "projectiles_r21_c2",
+  "row": 21,
+  "col": 2,
+  "x": 14,
+  "y": 1439,
+  "w": 43,
+  "h": 51
+ },
+ {
+  "frame": "projectiles_r21_c3",
+  "row": 21,
+  "col": 3,
+  "x": 50,
+  "y": 1349,
+  "w": 38,
+  "h": 46
+ },
+ {
+  "frame": "projectiles_r21_c4",
+  "row": 21,
+  "col": 4,
+  "x": 60,
+  "y": 1412,
+  "w": 28,
+  "h": 23
+ },
+ {
+  "frame": "projectiles_r21_c5",
+  "row": 21,
+  "col": 5,
+  "x": 73,
+  "y": 1276,
+  "w": 275,
+  "h": 217
+ },
+ {
+  "frame": "projectiles_r21_c6",
+  "row": 21,
+  "col": 6,
+  "x": 78,
+  "y": 1412,
+  "w": 68,
+  "h": 78
+ },
+ {
+  "frame": "projectiles_r21_c7",
+  "row": 21,
+  "col": 7,
+  "x": 256,
+  "y": 1412,
+  "w": 28,
+  "h": 23
+ },
+ {
+  "frame": "projectiles_r21_c8",
+  "row": 21,
+  "col": 8,
+  "x": 285,
+  "y": 1348,
+  "w": 28,
+  "h": 48
+ },
+ {
+  "frame": "projectiles_r21_c9",
+  "row": 21,
+  "col": 9,
+  "x": 295,
+  "y": 1412,
+  "w": 47,
+  "h": 23
+ },
+ {
+  "frame": "projectiles_r21_c10",
+  "row": 21,
+  "col": 10,
+  "x": 337,
+  "y": 1364,
+  "w": 16,
+  "h": 17
+ },
+ {
+  "frame": "projectiles_r21_c11",
+  "row": 21,
+  "col": 11,
+  "x": 352,
+  "y": 1440,
+  "w": 138,
+  "h": 49
+ },
+ {
+  "frame": "projectiles_r21_c12",
+  "row": 21,
+  "col": 12,
+  "x": 354,
+  "y": 1412,
+  "w": 28,
+  "h": 23
+ },
+ {
+  "frame": "projectiles_r21_c13",
+  "row": 21,
+  "col": 13,
+  "x": 398,
+  "y": 1420,
+  "w": 54,
+  "h": 11
+ },
+ {
+  "frame": "projectiles_r21_c14",
+  "row": 21,
+  "col": 14,
+  "x": 458,
+  "y": 1420,
+  "w": 37,
+  "h": 10
+ },
+ {
+  "frame": "projectiles_r21_c15",
+  "row": 21,
+  "col": 15,
+  "x": 493,
+  "y": 1446,
+  "w": 65,
+  "h": 36
+ },
+ {
+  "frame": "projectiles_r21_c16",
+  "row": 21,
+  "col": 16,
+  "x": 501,
+  "y": 1422,
+  "w": 6,
+  "h": 5
+ },
+ {
+  "frame": "projectiles_r21_c17",
+  "row": 21,
+  "col": 17,
+  "x": 513,
+  "y": 1420,
+  "w": 44,
+  "h": 9
+ },
+ {
+  "frame": "projectiles_r21_c18",
+  "row": 21,
+  "col": 18,
+  "x": 563,
+  "y": 1447,
+  "w": 64,
+  "h": 35
+ },
+ {
+  "frame": "projectiles_r21_c19",
+  "row": 21,
+  "col": 19,
+  "x": 638,
+  "y": 1447,
+  "w": 55,
+  "h": 34
+ },
+ {
+  "frame": "projectiles_r21_c20",
+  "row": 21,
+  "col": 20,
+  "x": 711,
+  "y": 1448,
+  "w": 48,
+  "h": 32
+ },
+ {
+  "frame": "projectiles_r21_c21",
+  "row": 21,
+  "col": 21,
+  "x": 786,
+  "y": 1447,
+  "w": 39,
+  "h": 34
+ },
+ {
+  "frame": "projectiles_r21_c22",
+  "row": 21,
+  "col": 22,
+  "x": 860,
+  "y": 1445,
+  "w": 30,
+  "h": 39
+ },
+ {
+  "frame": "projectiles_r21_c23",
+  "row": 21,
+  "col": 23,
+  "x": 934,
+  "y": 1444,
+  "w": 23,
+  "h": 40
+ },
+ {
+  "frame": "projectiles_r21_c24",
+  "row": 21,
+  "col": 24,
+  "x": 1006,
+  "y": 1453,
+  "w": 18,
+  "h": 23
+ }
+]
